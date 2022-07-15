@@ -1,0 +1,22 @@
+#playerImg {
+  transform: rotateY(180deg);
+}
+
+.anim {
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 20px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
